@@ -1,0 +1,102 @@
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url('fonts/Montserrat-Bold.woff') format('woff'),
+        url('fonts/Montserrat-Bold.otf') format('opentype');
+}
+@font-face {
+    font-family: Montserrat-Light;
+    src: url('fonts/Montserrat-Light.woff') format('woff'),
+        url('fonts/Montserrat-Light.otf') format('opentype');
+}
+
+.navbar{
+    font-family: Montserrat-Bold;
+    background-color: white;
+    color: #475063;
+    text-decoration: none;
+
+    .navbar-brand>img {
+        margin-top: -0.65em;
+        margin-left: 4.70em;
+        height: auto;
+        width: 2.75em;
+    }
+    .navbar-right{
+        margin-right: 12em;
+        color:#475063;
+        a{
+            color: #475063;
+            text-decoration: none;
+        }
+    }
+}
+
+.jumbotron{
+    background-color: #198d84;
+    color: white;
+
+    .container{
+        margin-left: 6.25em;
+        margin-right: 6.25em;
+
+        .text-holder{
+            margin-top: 10em;
+            margin-bottom: 6.25em;
+        
+            h1{
+                font-size: 1.5625em;
+                font-family: Montserrat-Bold;
+            }
+
+            p{
+                font-size: 0.9375em;
+                font-family: Montserrat-Light;
+            }
+
+            #learn-more{
+                min-width: 9.375em;
+                font-size: 0.9375em;
+                border: solid white 0.125em;
+                background-color: #198d84;
+                font-family: Montserrat-Bold;
+            }        
+        }
+        img{
+            margin-left: 2em;
+            margin-top: 2em;
+            margin-bottom: -2em;
+            height: auto;
+            width: 55%;
+        }
+    }
+}
+
+.thumbnail {
+    text-align: center;
+    border: white;
+    position: relative;
+
+        h6{
+            font-family: Montserrat-Bold;
+        }
+
+        p {
+            font-family: Montserrat-Light;
+            max-height: 4.0625em;
+            min-height: 4.0625em;
+        }
+        
+        #more-button{
+            border: solid 0.125em #475063;
+            font-family: Montserrat-Bold;
+            background-color: white;
+            min-width: 7.1875em;
+            padding: 0.3125em;
+            line-height: 0.625em;
+            font-size: 0.75em;
+        }
+}
+
+#foot-spacer{
+    min-height: 3.125em;
+}
