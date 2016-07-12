@@ -18,6 +18,9 @@
   height: auto;
   width: 2.75em;
 }
+.navbar .icon-bar {
+  background-color: #475063;
+}
 .navbar .navbar-right {
   margin-right: 12em;
   color: #475063;
